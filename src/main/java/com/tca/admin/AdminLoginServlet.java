@@ -48,7 +48,7 @@ public class AdminLoginServlet extends HttpServlet
     		    return;
     		}
     		
-    		ps = con.prepareStatement("SELECT admin_id FROM admins WHERE username=? AND password=?");
+    		ps = con.prepareStatement("SELECT admin_id FROM admins WHERE admins=? AND password=?");
     		ps.setString(1, un);
     		ps.setString(2, pwd);
     		
