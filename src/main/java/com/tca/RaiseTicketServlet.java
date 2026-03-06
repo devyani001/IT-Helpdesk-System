@@ -78,10 +78,10 @@ public class RaiseTicketServlet extends HttpServlet {
         // ==============================
         // 🗄 DATABASE INSERTION
         // ==============================
-
-        final String DB_URL = "jdbc:mysql://localhost:3306/ajdb21";
+        
+        final String DB_URL = "jdbc:mysql://nozomi.proxy.rlwy.net:37413/railway";
         final String DB_USER = "root";
-        final String DB_PWD  = "Cdevyani@1";
+        final String DB_PWD  = "JtoWvJhTaVbwzEJzvhCXScgNRVKNRFiw";
         final String DB_DRIVER = "com.mysql.cj.jdbc.Driver";
 
         Connection con = null;
